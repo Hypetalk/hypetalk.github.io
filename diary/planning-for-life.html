@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Planning for Life is a Bit Difficult — Devin's Thoughts</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --warm-white: #faf8f5;
+      --navy: #2c3e6b;
+      --text: #2a2825;
+      --muted: #9a9489;
+      --border: #e8e4de;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: var(--warm-white);
+      color: var(--text);
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 300;
+    }
+
+    /* NAV */
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.5rem 3rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .nav-logo {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.1rem;
+      font-weight: 400;
+      color: var(--text);
+      letter-spacing: 0.05em;
+      text-decoration: none;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 2.5rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      font-size: 0.7rem;
+      font-weight: 500;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--muted);
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+
+    .nav-links a:hover {
+      color: var(--text);
+    }
+
+    /* ARTICLE */
+    article {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 5rem 2rem 8rem;
+      animation: fadeUp 0.8s ease 0.1s both;
+    }
+
+    .post-meta {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .post-category {
+      font-size: 0.6rem;
+      font-weight: 500;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--navy);
+      text-decoration: none;
+    }
+
+    .post-date {
+      font-size: 0.65rem;
+      color: var(--muted);
+      letter-spacing: 0.05em;
+    }
+
+    .post-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2.2rem, 5vw, 3.5rem);
+      font-weight: 300;
+      line-height: 1.1;
+      letter-spacing: -0.01em;
+      margin-bottom: 3rem;
+    }
+
+    .post-body {
+      font-size: 1rem;
+      line-height: 1.85;
+      font-weight: 300;
+    }
+
+    .post-body p {
+      margin-bottom: 1.6rem;
+      color: var(--text);
+    }
+
+    .post-body p:last-child {
+      margin-bottom: 0;
+    }
+
+    /* BACK LINK */
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.65rem;
+      font-weight: 500;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--muted);
+      text-decoration: none;
+      margin-top: 5rem;
+      transition: color 0.2s ease;
+    }
+
+    .back-link:hover {
+      color: var(--navy);
+    }
+
+    .back-link::before {
+      content: '←';
+      font-size: 0.8rem;
+    }
+
+    /* FOOTER */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 2rem 3rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .footer-name {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 0.95rem;
+      font-style: italic;
+      color: var(--muted);
+    }
+
+    .footer-copy {
+      font-size: 0.65rem;
+      color: var(--muted);
+      letter-spacing: 0.1em;
+    }
+
+    @keyframes fadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="/" class="nav-logo">Devin's Thoughts</a>
+    <ul class="nav-links">
+      <li><a href="/history">History</a></li>
+      <li><a href="/travel">Travel</a></li>
+      <li><a href="/diary">Diary</a></li>
+    </ul>
+  </nav>
+
+  <article>
+    <div class="post-meta">
+      <a href="/diary" class="post-category">Diary</a>
+      <span class="post-date">May 29, 2026</span>
+    </div>
+
+    <h1 class="post-title">Planning for Life is a Bit Difficult</h1>
+
+    <div class="post-body">
+      <p>I'm at the park parking lot trying to figure out if I should go out and walk. I'm exhausted and don't really want to, but I'm forcing myself so I can be active.</p>
+
+      <p>I feel like I'm at a place where I just don't want to do anything. Like quitting from life in general. I don't think I have motivation or competition or any sense of another person to help me stay motivated.</p>
+
+      <p>I compare myself to a lot of people from my past and those I see on social media — people who have jobs, direction, something to show for themselves. I don't really have something I know what to do with. I want to design stuff, do architecture, but I don't know where to start or how to build a portfolio or do something that feels original.</p>
+
+      <p>I want to do something meaningful with my time but I have no idea what I'm really keen or passionate about. I look at things and I'm not sure if I'm actually interested or just going through the motions.</p>
+
+      <p>Like when I was writing my thesis — I was honestly pretty scared to encounter anything related to the topic, because I didn't feel like I knew enough or how to properly analyze the conversations I was supposed to be having. That feeling hasn't really gone away.</p>
+    </div>
+
+    <a href="/" class="back-link">Back to home</a>
+  </article>
+
+  <footer>
+    <span class="footer-name">Devin's Thoughts</span>
+    <span class="footer-copy">© 2026</span>
+  </footer>
+
+</body>
+</html>
